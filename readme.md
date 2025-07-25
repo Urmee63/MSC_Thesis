@@ -1,4 +1,4 @@
-# Akari Puzzle Construction and Human-Solvability with ASP
+# Unique Akari Puzzle Construction and Human-Solvability with ASP
 
 This repository contains the **master's thesis** exploring Akari puzzle construction and human-solvability using Answer Set Programming (ASP) integrated with Python. All key ASP code and Python pseudocode are included within the thesis document itself.
 
