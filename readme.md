@@ -1,34 +1,35 @@
 # Akari Puzzle Construction and Human-Solvability with ASP
 
-This repository contains the **master's thesis** investigating Akari puzzle construction and human-solvability using Answer Set Programming (ASP) integrated with Python. All code and sensitive assets are withheld due to institutional agreements; only the thesis document is shared.
+This repository contains the **master's thesis** exploring Akari puzzle construction and human-solvability using Answer Set Programming (ASP) integrated with Python. All key ASP code and Python pseudocode are included within the thesis document itself.
 
 ## Project Overview
 
-Akari, or Light Up, is a logic puzzle requiring unique solution grids. This thesis presents an ASP-based constructor that generates unique Akari puzzles for grids from 6×6 up to 14×14 (largest feasible: 12×12 for classic uniqueness). A human strategy-based solver is implemented, capturing six deduction strategies used by human players. 
+Akari, or Light Up, is a logic puzzle requiring unique solutions. This thesis presents an ASP-based constructor that generates unique Akari puzzles from 6×6 up to 14×14 grids (largest feasible for unique puzzles: 12×12). A human strategy-based solver is implemented using six major deduction strategies.
 
-Initially, some generated puzzles, while unique, proved unsolvable by the human strategy-based solver. The constructor was thus redesigned to embed explicit human-solvability constraints, guaranteeing that all accepted puzzles can be solved using the six strategies. This human-oriented generation incurs a notable construction-time increase, with the largest practical grid size for this method being 10×10.
+Some generated puzzles, though unique, were not solvable using only the human strategies. To address this, the constructor was redesigned with explicit human-solvability constraints, ensuring every accepted puzzle can be solved by these strategies. This focus on human accessibility increases construction time, limiting the practical maximum human-solvable grid to 10×10.
 
-Performance, human accessibility, and a comparison with an established C++ Akari puzzle framework are presented, along with a case study illustrating the deduction process on a 10×10 puzzle.
+Performance analysis, solver walkthroughs, and a comparison to a C++ Akari framework are provided. The thesis contains detailed pseudocode and ASP logic for all algorithms used.
 
 ## Repository Contents
 
 - **thesis.pdf**  
-  Contains the full MSc thesis with:
-    - Puzzle construction algorithms and ASP modeling
-    - Definition and implementation of human-solving strategies
-    - Results on puzzle uniqueness and human-solvability
-    - Performance and scalability analysis
-    - Comparative study with C++ implementation
-    - Case study solution walkthroughs
+  - Full MSc thesis:
+    - Puzzle construction logic 
+    - Human-solving strategies
+    - Results on uniqueness and human-solvability
+    - Performance and scalability evaluation
+    - Case study solution
+    - Comparative analysis with a C++ implementation
 
 ## Code Availability
 
-Project code and data are **not publicly available** due to NDA limitations with the supervising institution. Code may be shared in the future following review and sanitization.
+No separate code files are provided due to institutional agreements, but **all relevant ASP and Python pseudocode are included within the thesis** for reference and understanding.
 
-For inquiries or collaboration, please contact [Urmee Pal](urmeeacademicmsc@gmail.com).
+For questions or collaboration requests, please contact [Urmee Pal](urmeeacademicmsc@gmail.com).
+
 
 ## Citation
 
-If referencing this work, please cite the thesis included here.
+If referencing this project, please cite the thesis (see file included).
 
-*Thank you for your understanding regarding code availability.*
+*Thank you for your understanding regarding code redistribution.*
