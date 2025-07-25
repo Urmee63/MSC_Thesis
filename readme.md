@@ -25,7 +25,7 @@ Performance analysis, solver walkthroughs, and a comparison to a C++ Akari frame
 
 No separate code files are provided due to institutional agreements, but **all relevant ASP and Python pseudocode are included within the thesis** for reference and understanding.
 
-For questions or collaboration requests, please contact [Urmee Pal](urmeeacademicmsc@gmail.com).
+For questions or collaboration requests, please contact [Urmee Pal](mailto:urmeeacademicmsc@gmail.com).
 
 
 ## Citation
